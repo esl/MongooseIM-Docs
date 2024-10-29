@@ -5167,16 +5167,18 @@ Uses <code>mod_muc_log</code>.</p>
 In large installations with many rooms, this might cause performance issues.
 To address that problem MongooseIM has 2 levels of MUC rooms memory optimisations.</p>
 <h3 id="rooms-process-hibernation">Room's process hibernation<a class="headerlink" href="#rooms-process-hibernation" title="Permanent link">&para;</a></h3>
-<p>By default the room's process is hibernated by the Erlang VM 90 seconds after the last activity.
+<p>By default, the room's process is hibernated by the Erlang VM 90 seconds after the last activity.
 This timeout can be modified by <code>hibernate_timeout</code> option.</p>
 <h3 id="room-deep-hibernation">Room deep hibernation<a class="headerlink" href="#room-deep-hibernation" title="Permanent link">&para;</a></h3>
 <p>MongooseIM introduces an additional option of deep hibernation for unused rooms.
 This optimisation works only for persistent rooms as only these can be restored on demand.
-The improvement works as follows:
-1. All room processes are traversed at a chosen <code>hibernated_room_check_interval</code>.
-1. If a <code>hibernated_room_timeout</code> is exceeded, a "stop" signal is sent to a unused room.
-1. The room's process is stopped only if there are no online users or if the only one is its owner.
-If the owner is online, a presence of a type unavailable is sent to it indicating that the room's process is being terminated.</p>
+The improvement works as follows:</p>
+<ol>
+<li>All room processes are traversed at a chosen <code>hibernated_room_check_interval</code>.</li>
+<li>If a <code>hibernated_room_timeout</code> is exceeded, a "stop" signal is sent to an unused room.</li>
+<li>The room's process is stopped only if there are no online users or if the only one is its owner.
+If the owner is online, a presence of a type unavailable is sent to it indicating that the room's process is being terminated.</li>
+</ol>
 <p>The room's process can be recreated on demand, for example when a presence sent to it, or the owner wants to add more users to the room.</p>
 <h2 id="external-http-authentication">External HTTP Authentication<a class="headerlink" href="#external-http-authentication" title="Permanent link">&para;</a></h2>
 <p>MUC rooms can be protected by a password that is set by the room owner.
