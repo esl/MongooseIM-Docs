@@ -2441,6 +2441,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#modulesmod_muc_lightallow_multiple_owners" class="md-nav__link">
+    <span class="md-ellipsis">
+      modules.mod_muc_light.allow_multiple_owners
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#modulesmod_muc_lightconfig_schema" class="md-nav__link">
     <span class="md-ellipsis">
       modules.mod_muc_light.config_schema
@@ -4297,6 +4306,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#modulesmod_muc_lightallow_multiple_owners" class="md-nav__link">
+    <span class="md-ellipsis">
+      modules.mod_muc_light.allow_multiple_owners
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#modulesmod_muc_lightconfig_schema" class="md-nav__link">
     <span class="md-ellipsis">
       modules.mod_muc_light.config_schema
@@ -4457,6 +4475,22 @@ Occupants added by <code>members</code> become <code>members</code> as well.</p>
 <li><strong>Example:</strong> <code>rooms_in_rosters = true</code></li>
 </ul>
 <p>When enabled, rooms the user occupies are included in their roster.</p>
+<h3 id="modulesmod_muc_lightallow_multiple_owners"><code>modules.mod_muc_light.allow_multiple_owners</code><a class="headerlink" href="#modulesmod_muc_lightallow_multiple_owners" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Syntax:</strong> boolean</li>
+<li><strong>Default:</strong> <code>false</code></li>
+<li><strong>Example:</strong> <code>allow_multiple_owners = true</code></li>
+</ul>
+<p>When enabled, owner can add one or more people as owners.
+If disabled, there can only be one owner.
+This option may be useful for creating a subset of users with admin rights, instead of giving rights for all members,
+which can be done with the <a href="#modulesmod_muc_lightall_can_configure">all_can_configure</a> and
+<a href="#modulesmod_muc_lightall_can_invite">all_can_invite</a> options.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is a custom option, not compatible with our <a href="../../open-extensions/muc_light/">MUC Light XEP</a>.
+If a client is adhering to the XEP, its behaviour may be unexpected, and this option should not be enabled.</p>
+</div>
 <h3 id="modulesmod_muc_lightconfig_schema"><code>modules.mod_muc_light.config_schema</code><a class="headerlink" href="#modulesmod_muc_lightconfig_schema" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Syntax:</strong> an array of <code>config_schema</code> items, as described below</li>
