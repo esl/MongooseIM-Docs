@@ -1,0 +1,564 @@
+[
+  {
+    "url" : "https://xmpp.org/extensions/xep-0004.html",
+    "xep" : "0004",
+    "modules" : [
+      "mongoose_data_forms"
+    ],
+    "version" : "2.13.1",
+    "status" : "complete",
+    "name" : "Data Forms"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0012.html",
+    "xep" : "0012",
+    "modules" : [
+      "mod_last"
+    ],
+    "version" : "2.0",
+    "status" : "complete",
+    "name" : "Last Activity"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0016.html",
+    "xep" : "0016",
+    "modules" : [
+      "mod_privacy"
+    ],
+    "version" : "1.7",
+    "status" : "complete",
+    "name" : "Privacy Lists"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0022.html",
+    "xep" : "0022",
+    "modules" : [
+      "mod_offline"
+    ],
+    "version" : "1.4",
+    "status" : "complete",
+    "name" : "Message Events"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0023.html",
+    "xep" : "0023",
+    "modules" : [
+      "mod_offline"
+    ],
+    "version" : "1.3",
+    "status" : "complete",
+    "name" : "Message Expiration"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0030.html",
+    "xep" : "0030",
+    "modules" : [
+      "mod_disco"
+    ],
+    "version" : "2.5rc3",
+    "status" : "complete",
+    "name" : "Service Discovery"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0045.html",
+    "xep" : "0045",
+    "modules" : [
+      "mod_muc"
+    ],
+    "version" : "1.34.5",
+    "status" : "complete",
+    "name" : "Multi-User Chat"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0049.html",
+    "xep" : "0049",
+    "modules" : [
+      "mod_private"
+    ],
+    "version" : "1.2",
+    "status" : "complete",
+    "name" : "Private XML Storage"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0050.html",
+    "xep" : "0050",
+    "modules" : [
+      "adhoc"
+    ],
+    "version" : "1.3.0",
+    "status" : "complete",
+    "name" : "Ad-Hoc Commands"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0054.html",
+    "xep" : "0054",
+    "modules" : [
+      "mod_vcard"
+    ],
+    "version" : "1.2",
+    "status" : "complete",
+    "name" : "vcard-temp"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0055.html",
+    "xep" : "0055",
+    "modules" : [
+      "mod_vcard"
+    ],
+    "version" : "1.3",
+    "status" : "complete",
+    "name" : "Jabber Search"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0059.html",
+    "xep" : "0059",
+    "modules" : [
+      "jlib"
+    ],
+    "version" : "1.0",
+    "status" : "complete",
+    "name" : "Result Set Management"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0060.html",
+    "xep" : "0060",
+    "modules" : [
+      "mod_pubsub"
+    ],
+    "version" : "1.25.0",
+    "status" : "complete",
+    "name" : "Publish-Subscribe"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0068.html",
+    "xep" : "0068",
+    "modules" : [
+      "mongoose_data_forms"
+    ],
+    "version" : "1.3.0",
+    "status" : "complete",
+    "name" : "Field Standardization for Data Forms"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0077.html",
+    "xep" : "0077",
+    "modules" : [
+      "mod_register"
+    ],
+    "version" : "2.4",
+    "status" : "complete",
+    "name" : "In-Band Registration"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0079.html",
+    "xep" : "0079",
+    "modules" : [
+      "mod_amp"
+    ],
+    "version" : "1.2",
+    "status" : "partial",
+    "name" : "Advanced Message Processing"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0082.html",
+    "xep" : "0082",
+    "modules" : [
+      "mod_time"
+    ],
+    "version" : "1.1.1",
+    "status" : "complete",
+    "name" : "XMPP Date and Time Profiles"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0083.html",
+    "xep" : "0083",
+    "modules" : [
+      "mod_roster"
+    ],
+    "version" : "1.0",
+    "status" : "complete",
+    "name" : "Nested Roster Groups"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0085.html",
+    "xep" : "0085",
+    "modules" : [
+      "mod_offline"
+    ],
+    "version" : "2.1",
+    "status" : "complete",
+    "name" : "Chat State Notifications"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0086.html",
+    "xep" : "0086",
+    "modules" : [
+      "jlib"
+    ],
+    "version" : "1.0",
+    "status" : "complete",
+    "name" : "Error Condition Mappings"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0092.html",
+    "xep" : "0092",
+    "modules" : [
+      "mod_version"
+    ],
+    "version" : "1.1",
+    "status" : "complete",
+    "name" : "Software Version"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0093.html",
+    "xep" : "0093",
+    "modules" : [
+      "mod_roster"
+    ],
+    "version" : "1.2",
+    "status" : "complete",
+    "name" : "Roster Item Exchange"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0114.html",
+    "xep" : "0114",
+    "modules" : [
+      "ejabberd_service"
+    ],
+    "version" : "1.6",
+    "status" : "complete",
+    "name" : "Jabber Component Protocol"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0115.html",
+    "xep" : "0115",
+    "modules" : [
+      "mod_caps"
+    ],
+    "version" : "1.6.0",
+    "status" : "complete",
+    "name" : "Entity Capabilities"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0124.html",
+    "xep" : "0124",
+    "modules" : [
+      "mod_bosh"
+    ],
+    "version" : "1.11.2",
+    "status" : "complete",
+    "name" : "Bidirectional-streams Over Synchronous HTTP (BOSH)"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0126.html",
+    "xep" : "0126",
+    "modules" : [
+      "mod_privacy"
+    ],
+    "version" : "1.1",
+    "status" : "complete",
+    "name" : "Invisibility"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0157.html",
+    "xep" : "0157",
+    "modules" : [
+      "mod_disco"
+    ],
+    "version" : "1.1.1",
+    "status" : "complete",
+    "name" : "Contact Addresses for XMPP Services"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0160.html",
+    "xep" : "0160",
+    "modules" : [
+      "mod_offline",
+      "mod_offline_chatmarkers"
+    ],
+    "version" : "1.0.1",
+    "status" : "complete",
+    "name" : "Best Practices for Handling Offline Messages"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0163.html",
+    "xep" : "0163",
+    "modules" : [
+      "mod_pubsub"
+    ],
+    "version" : "1.2.2",
+    "status" : "complete",
+    "name" : "Personal Eventing Protocol"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0170.html",
+    "xep" : "0170",
+    "modules" : [
+      "mongoose_c2s"
+    ],
+    "version" : "1.0",
+    "status" : "complete",
+    "name" : "Recommended Order of Stream Feature Negotiation"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0175.html",
+    "xep" : "0175",
+    "modules" : [
+      "cyrsasl_anonymous"
+    ],
+    "version" : "1.2",
+    "status" : "complete",
+    "name" : "Best Practices for Use of SASL ANONYMOUS"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0178.html",
+    "xep" : "0178",
+    "modules" : [
+      "cyrsasl_external"
+    ],
+    "version" : "1.2",
+    "status" : "partial",
+    "name" : "Best Practices for Use of SASL EXTERNAL with Certificates"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0185.html",
+    "xep" : "0185",
+    "modules" : [
+      "mongoose_s2s_dialback"
+    ],
+    "version" : "1.0",
+    "status" : "complete",
+    "name" : "Dialback Key Generation and Validation"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0191.html",
+    "xep" : "0191",
+    "modules" : [
+      "mod_blocking"
+    ],
+    "version" : "1.3",
+    "status" : "complete",
+    "name" : "Blocking Command"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0198.html",
+    "xep" : "0198",
+    "modules" : [
+      "mod_stream_management"
+    ],
+    "version" : "1.6.1",
+    "status" : "complete",
+    "name" : "Stream Management"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0199.html",
+    "xep" : "0199",
+    "modules" : [
+      "mod_ping"
+    ],
+    "version" : "2.0.1",
+    "status" : "complete",
+    "name" : "XMPP Ping"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0202.html",
+    "xep" : "0202",
+    "modules" : [
+      "mod_time"
+    ],
+    "version" : "2.0",
+    "status" : "complete",
+    "name" : "Entity Time"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0206.html",
+    "xep" : "0206",
+    "modules" : [
+      "mod_bosh"
+    ],
+    "version" : "1.4",
+    "status" : "complete",
+    "name" : "XMPP Over BOSH"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0215.html",
+    "xep" : "0215",
+    "modules" : [
+      "mod_extdisco"
+    ],
+    "version" : "1.0.0",
+    "status" : "complete",
+    "name" : "External Service Discovery"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0220.html",
+    "xep" : "0220",
+    "modules" : [
+      "ejabberd_s2s_out",
+      "mongoose_s2s_dialback"
+    ],
+    "version" : "1.1.1",
+    "status" : "complete",
+    "name" : "Server Dialback"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0237.html",
+    "xep" : "0237",
+    "modules" : [
+      "mod_roster"
+    ],
+    "version" : "1.3",
+    "status" : "complete",
+    "name" : "Roster Versioning"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0248.html",
+    "xep" : "0248",
+    "modules" : [
+      "mod_pubsub"
+    ],
+    "version" : "0.3.0",
+    "status" : "complete",
+    "name" : "PubSub Collection Nodes"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0249.html",
+    "xep" : "0249",
+    "modules" : [
+      "mod_muc"
+    ],
+    "version" : "1.2",
+    "status" : "complete",
+    "name" : "Direct MUC Invitations"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0277.html",
+    "xep" : "0277",
+    "modules" : [
+      "mod_pubsub"
+    ],
+    "version" : "0.6.5",
+    "status" : "complete",
+    "name" : "Microblogging over XMPP"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0279.html",
+    "xep" : "0279",
+    "modules" : [
+      "mod_sic"
+    ],
+    "version" : "0.2",
+    "status" : "complete",
+    "name" : "Server IP Check"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0280.html",
+    "xep" : "0280",
+    "modules" : [
+      "mod_carboncopy"
+    ],
+    "version" : "1.0.1",
+    "status" : "complete",
+    "name" : "Message Carbons"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0313.html",
+    "xep" : "0313",
+    "modules" : [
+      "mod_mam"
+    ],
+    "version" : "1.1.0",
+    "status" : "complete",
+    "name" : "Message Archive Management"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0333.html",
+    "xep" : "0333",
+    "modules" : [
+      "mod_smart_markers"
+    ],
+    "version" : "0.4",
+    "status" : "complete",
+    "name" : "Displayed Markers"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0352.html",
+    "xep" : "0352",
+    "modules" : [
+      "mod_csi"
+    ],
+    "version" : "1.0.0",
+    "status" : "complete",
+    "name" : "Client State Indication"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0357.html",
+    "xep" : "0357",
+    "modules" : [
+      "mod_event_pusher_push"
+    ],
+    "version" : "0.4.1",
+    "status" : "complete",
+    "name" : "Push Notifications"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0363.html",
+    "xep" : "0363",
+    "modules" : [
+      "mod_http_upload"
+    ],
+    "version" : "1.1.0",
+    "status" : "complete",
+    "name" : "HTTP File Upload"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0384.html",
+    "xep" : "0384",
+    "modules" : [
+      "mod_pubsub"
+    ],
+    "version" : "0.8.3",
+    "status" : "complete",
+    "name" : "OMEMO Encryption"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0386.html",
+    "xep" : "0386",
+    "modules" : [
+      "mod_bind2"
+    ],
+    "version" : "0.4.0",
+    "status" : "partial",
+    "name" : "Bind 2"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0388.html",
+    "xep" : "0388",
+    "modules" : [
+      "mod_sasl2"
+    ],
+    "version" : "0.4.0",
+    "status" : "partial",
+    "name" : "Extensible SASL Profile"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0424.html",
+    "xep" : "0424",
+    "modules" : [
+      "mod_mam"
+    ],
+    "version" : "0.3.0",
+    "status" : "complete",
+    "name" : "Message Retraction"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0441.html",
+    "xep" : "0441",
+    "modules" : [
+      "mod_mam"
+    ],
+    "version" : "0.2.0",
+    "status" : "complete",
+    "name" : "Message Archive Management Preferences"
+  }
+]
