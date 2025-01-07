@@ -4106,7 +4106,8 @@
   <h1>6.3.0 to 6.3.1</h1>
 
 <h2 id="log-handler-configuration">Log Handler Configuration<a class="headerlink" href="#log-handler-configuration" title="Permanent link">&para;</a></h2>
-<p>The shell log handler in <code>app.config</code> should be named either "default" to enable shell logs or "none" to suppress them.</p>
+<p>The shell log handler in <code>app.config</code> should be renamed from <code>shell_log</code> to <code>default</code>.
+Otherwise, there would be duplicate logs in the shell because of the <a href="https://github.com/esl/MongooseIM/pull/4393">lager removal</a>.</p>
 <h2 id="ca-certificate-configuration">CA Certificate Configuration<a class="headerlink" href="#ca-certificate-configuration" title="Permanent link">&para;</a></h2>
 <p>Providing a CA certificate file (<code>cacertfile</code> option) is now mandatory for s2s listeners if the <code>use_starttls</code> option is set to <code>required</code> or <code>required_trusted</code>.
 Similarly, this requirement applies when <code>fast_tls</code> is configured with the <code>verify_mode</code> option set to <code>peer</code> or <code>selfsigned_peer</code>.</p>

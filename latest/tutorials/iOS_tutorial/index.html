@@ -4602,15 +4602,15 @@ We are going to create an <code>XMPPController</code> class with an <code>XMPPSt
 <span class="normal"> 8</span>
 <span class="normal"> 9</span>
 <span class="normal">10</span>
-<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">import</span> <span class="nc">Foundation</span>
-<span class="kd">import</span> <span class="nc">XMPPFramework</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">import</span><span class="w"> </span><span class="nc">Foundation</span>
+<span class="kd">import</span><span class="w"> </span><span class="nc">XMPPFramework</span>
 
-<span class="kd">class</span> <span class="nc">XMPPController</span><span class="p">:</span> <span class="bp">NSObject</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nv">xmppStream</span><span class="p">:</span> <span class="n">XMPPStream</span>
+<span class="kd">class</span><span class="w"> </span><span class="nc">XMPPController</span><span class="p">:</span><span class="w"> </span><span class="bp">NSObject</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nv">xmppStream</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStream</span>
 
-    <span class="kd">init</span><span class="p">()</span> <span class="p">{</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span> <span class="p">=</span> <span class="n">XMPPStream</span><span class="p">()</span>  
-    <span class="p">}</span>
+<span class="w">    </span><span class="kd">init</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">XMPPStream</span><span class="p">()</span><span class="w">  </span>
+<span class="w">    </span><span class="p">}</span>
 
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
@@ -4660,39 +4660,39 @@ we are going to make some changes to the <code>init</code> to be able to receive
 <span class="normal">31</span>
 <span class="normal">32</span>
 <span class="normal">33</span>
-<span class="normal">34</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">enum</span> <span class="nc">XMPPControllerError</span><span class="p">:</span> <span class="n">Error</span> <span class="p">{</span>
-    <span class="k">case</span> <span class="n">wrongUserJID</span>
+<span class="normal">34</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">enum</span><span class="w"> </span><span class="nc">XMPPControllerError</span><span class="p">:</span><span class="w"> </span><span class="n">Error</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="n">wrongUserJID</span>
 <span class="p">}</span>
 
-<span class="kd">class</span> <span class="nc">XMPPController</span><span class="p">:</span> <span class="bp">NSObject</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nv">xmppStream</span><span class="p">:</span> <span class="n">XMPPStream</span>
+<span class="kd">class</span><span class="w"> </span><span class="nc">XMPPController</span><span class="p">:</span><span class="w"> </span><span class="bp">NSObject</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nv">xmppStream</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStream</span>
 
-    <span class="kd">let</span> <span class="nv">hostName</span><span class="p">:</span> <span class="nb">String</span>
-    <span class="kd">let</span> <span class="nv">userJID</span><span class="p">:</span> <span class="n">XMPPJID</span>
-    <span class="kd">let</span> <span class="nv">hostPort</span><span class="p">:</span> <span class="nb">UInt16</span>
-    <span class="kd">let</span> <span class="nv">password</span><span class="p">:</span> <span class="nb">String</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="nv">hostName</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="nv">userJID</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPJID</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="nv">hostPort</span><span class="p">:</span><span class="w"> </span><span class="nb">UInt16</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="nv">password</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span>
 
-    <span class="kd">init</span><span class="p">(</span><span class="n">hostName</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">userJIDString</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">hostPort</span><span class="p">:</span> <span class="nb">UInt16</span> <span class="p">=</span> <span class="mi">5222</span><span class="p">,</span> <span class="n">password</span><span class="p">:</span> <span class="nb">String</span><span class="p">)</span> <span class="kr">throws</span> <span class="p">{</span>
-        <span class="k">guard</span> <span class="kd">let</span> <span class="nv">userJID</span> <span class="p">=</span> <span class="n">XMPPJID</span><span class="p">(</span><span class="n">string</span><span class="p">:</span> <span class="n">userJIDString</span><span class="p">)</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="k">throw</span> <span class="n">XMPPControllerError</span><span class="p">.</span><span class="n">wrongUserJID</span>
-        <span class="p">}</span>
+<span class="w">    </span><span class="kd">init</span><span class="p">(</span><span class="n">hostName</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span><span class="w"> </span><span class="n">userJIDString</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span><span class="w"> </span><span class="n">hostPort</span><span class="p">:</span><span class="w"> </span><span class="nb">UInt16</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">5222</span><span class="p">,</span><span class="w"> </span><span class="n">password</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">)</span><span class="w"> </span><span class="kr">throws</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">guard</span><span class="w"> </span><span class="kd">let</span><span class="w"> </span><span class="nv">userJID</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">XMPPJID</span><span class="p">(</span><span class="n">string</span><span class="p">:</span><span class="w"> </span><span class="n">userJIDString</span><span class="p">)</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">throw</span><span class="w"> </span><span class="n">XMPPControllerError</span><span class="p">.</span><span class="n">wrongUserJID</span>
+<span class="w">        </span><span class="p">}</span>
 
-        <span class="kc">self</span><span class="p">.</span><span class="n">hostName</span> <span class="p">=</span> <span class="n">hostName</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">userJID</span> <span class="p">=</span> <span class="n">userJID</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">hostPort</span> <span class="p">=</span> <span class="n">hostPort</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">password</span> <span class="p">=</span> <span class="n">password</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">hostName</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">hostName</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">userJID</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">userJID</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">hostPort</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">hostPort</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">password</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">password</span>
 
-        <span class="c1">// Stream Configuration</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span> <span class="p">=</span> <span class="n">XMPPStream</span><span class="p">()</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">hostName</span> <span class="p">=</span> <span class="n">hostName</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">hostPort</span> <span class="p">=</span> <span class="n">hostPort</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">startTLSPolicy</span> <span class="p">=</span> <span class="n">XMPPStreamStartTLSPolicy</span><span class="p">.</span><span class="n">allowed</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">myJID</span> <span class="p">=</span> <span class="n">userJID</span>
+<span class="w">        </span><span class="c1">// Stream Configuration</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">XMPPStream</span><span class="p">()</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">hostName</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">hostName</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">hostPort</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">hostPort</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">startTLSPolicy</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">XMPPStreamStartTLSPolicy</span><span class="p">.</span><span class="n">allowed</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">myJID</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">userJID</span>
 
-        <span class="kc">super</span><span class="p">.</span><span class="kd">init</span><span class="p">()</span>
+<span class="w">        </span><span class="kc">super</span><span class="p">.</span><span class="kd">init</span><span class="p">()</span>
 
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">addDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">delegateQueue</span><span class="p">:</span> <span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">)</span>
-    <span class="p">}</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">addDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span><span class="w"> </span><span class="n">delegateQueue</span><span class="p">:</span><span class="w"> </span><span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">)</span>
+<span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <p>Our next step is going to actually connect to a server and authenticate using our <code>userJID</code> and <code>password</code>,
@@ -4703,12 +4703,12 @@ so we are adding a <code>connect</code> method to our <code>XMPPController</code
 <span class="normal">4</span>
 <span class="normal">5</span>
 <span class="normal">6</span>
-<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">func</span> <span class="nf">connect</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">isDisconnected</span><span class="p">()</span> <span class="p">{</span>
-        <span class="k">return</span>
-    <span class="p">}</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">func</span><span class="w"> </span><span class="nf">connect</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">isDisconnected</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span>
+<span class="w">    </span><span class="p">}</span>
 
-   <span class="k">try</span><span class="p">!</span> <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">connect</span><span class="p">(</span><span class="n">withTimeout</span><span class="p">:</span> <span class="n">XMPPStreamTimeoutNone</span><span class="p">)</span>
+<span class="w">   </span><span class="k">try</span><span class="p">!</span><span class="w"> </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">connect</span><span class="p">(</span><span class="n">withTimeout</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStreamTimeoutNone</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <p>But how do we know we have successfully connected to the server?
@@ -4725,17 +4725,17 @@ After we connect to the server we need to authenticate so we are going to do the
 <span class="normal"> 9</span>
 <span class="normal">10</span>
 <span class="normal">11</span>
-<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">extension</span> <span class="nc">XMPPController</span><span class="p">:</span> <span class="n">XMPPStreamDelegate</span> <span class="p">{</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">extension</span><span class="w"> </span><span class="nc">XMPPController</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStreamDelegate</span><span class="w"> </span><span class="p">{</span>
 
-    <span class="kd">func</span> <span class="nf">xmppStreamDidConnect</span><span class="p">(</span><span class="kc">_</span> <span class="n">stream</span><span class="p">:</span> <span class="n">XMPPStream</span><span class="p">!)</span> <span class="p">{</span>
-        <span class="bp">print</span><span class="p">(</span><span class="s">&quot;Stream: Connected&quot;</span><span class="p">)</span>
-        <span class="k">try</span><span class="p">!</span> <span class="n">stream</span><span class="p">.</span><span class="n">authenticate</span><span class="p">(</span><span class="n">withPassword</span><span class="p">:</span> <span class="kc">self</span><span class="p">.</span><span class="n">password</span><span class="p">)</span>
-    <span class="p">}</span>
+<span class="w">    </span><span class="kd">func</span><span class="w"> </span><span class="nf">xmppStreamDidConnect</span><span class="p">(</span><span class="kc">_</span><span class="w"> </span><span class="n">stream</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStream</span><span class="p">!)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="bp">print</span><span class="p">(</span><span class="s">&quot;Stream: Connected&quot;</span><span class="p">)</span>
+<span class="w">        </span><span class="k">try</span><span class="p">!</span><span class="w"> </span><span class="n">stream</span><span class="p">.</span><span class="n">authenticate</span><span class="p">(</span><span class="n">withPassword</span><span class="p">:</span><span class="w"> </span><span class="kc">self</span><span class="p">.</span><span class="n">password</span><span class="p">)</span>
+<span class="w">    </span><span class="p">}</span>
 
-    <span class="kd">func</span> <span class="nf">xmppStreamDidAuthenticate</span><span class="p">(</span><span class="kc">_</span> <span class="n">sender</span><span class="p">:</span> <span class="n">XMPPStream</span><span class="p">!)</span> <span class="p">{</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="n">XMPPPresence</span><span class="p">())</span>
-        <span class="bp">print</span><span class="p">(</span><span class="s">&quot;Stream: Authenticated&quot;</span><span class="p">)</span>
-    <span class="p">}</span>
+<span class="w">    </span><span class="kd">func</span><span class="w"> </span><span class="nf">xmppStreamDidAuthenticate</span><span class="p">(</span><span class="kc">_</span><span class="w"> </span><span class="n">sender</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStream</span><span class="p">!)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="n">XMPPPresence</span><span class="p">())</span>
+<span class="w">        </span><span class="bp">print</span><span class="p">(</span><span class="s">&quot;Stream: Authenticated&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <p>We need to test this.
@@ -4743,25 +4743,25 @@ Let’s just create an instance of <code>XMPPController</code> in the <code>AppD
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
-<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">try</span><span class="p">!</span> <span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span> <span class="p">=</span> <span class="n">XMPPController</span><span class="p">(</span><span class="n">hostName</span><span class="p">:</span> <span class="s">&quot;host.com&quot;</span><span class="p">,</span>
-                                     <span class="n">userJIDString</span><span class="p">:</span> <span class="s">&quot;user@host.com&quot;</span><span class="p">,</span>
-                                          <span class="n">password</span><span class="p">:</span> <span class="s">&quot;password&quot;</span><span class="p">)</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">try</span><span class="p">!</span><span class="w"> </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">XMPPController</span><span class="p">(</span><span class="n">hostName</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;host.com&quot;</span><span class="p">,</span>
+<span class="w">                                     </span><span class="n">userJIDString</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;user@host.com&quot;</span><span class="p">,</span>
+<span class="w">                                          </span><span class="n">password</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;password&quot;</span><span class="p">)</span>
 <span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span><span class="p">.</span><span class="n">connect</span><span class="p">()</span>
 </code></pre></div></td></tr></table></div>
 <p>If everything goes fine we should see two messages in the logs but of course that’s not happening,
 we missed something.
 We never told to our <code>xmppStream</code> who was the delegate object!
 We need to add the following line after the <code>super.init()</code></p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">addDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">delegateQueue</span><span class="p">:</span> <span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">)</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">addDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span><span class="w"> </span><span class="n">delegateQueue</span><span class="p">:</span><span class="w"> </span><span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <p>If we run the app again:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">Stream</span><span class="p">:</span> <span class="n">Connected</span>
-<span class="n">Stream</span><span class="p">:</span> <span class="n">Authenticated</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">Stream</span><span class="p">:</span><span class="w"> </span><span class="n">Connected</span>
+<span class="n">Stream</span><span class="p">:</span><span class="w"> </span><span class="n">Authenticated</span>
 </code></pre></div></td></tr></table></div>
 <p>Success! We have our own <code>XMPPController</code> with a fully functional and authenticated stream!</p>
 <p>Something that may catch your attention is how we are setting our delegate, we are not doing:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">delegate</span> <span class="p">=</span> <span class="kc">self</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kc">self</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">delegate</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="kc">self</span>
 </code></pre></div></td></tr></table></div>
 <p>Why not?
 Because we can “broadcast” the events to multiple delegates,
@@ -4791,21 +4791,21 @@ In that delegate implementation we are going to create our <code>XMPPController<
 <span class="normal">13</span>
 <span class="normal">14</span>
 <span class="normal">15</span>
-<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">extension</span> <span class="nc">ViewController</span><span class="p">:</span> <span class="n">LogInViewControllerDelegate</span> <span class="p">{</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">extension</span><span class="w"> </span><span class="nc">ViewController</span><span class="p">:</span><span class="w"> </span><span class="n">LogInViewControllerDelegate</span><span class="w"> </span><span class="p">{</span>
 
-    <span class="kd">func</span> <span class="nf">didTouchLogIn</span><span class="p">(</span><span class="n">sender</span><span class="p">:</span> <span class="n">LogInViewController</span><span class="p">,</span> <span class="n">userJID</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">userPassword</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">server</span><span class="p">:</span> <span class="nb">String</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">logInViewController</span> <span class="p">=</span> <span class="n">sender</span>
+<span class="w">    </span><span class="kd">func</span><span class="w"> </span><span class="nf">didTouchLogIn</span><span class="p">(</span><span class="n">sender</span><span class="p">:</span><span class="w"> </span><span class="n">LogInViewController</span><span class="p">,</span><span class="w"> </span><span class="n">userJID</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span><span class="w"> </span><span class="n">userPassword</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span><span class="w"> </span><span class="n">server</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">logInViewController</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">sender</span>
 
-        <span class="k">do</span> <span class="p">{</span>
-            <span class="k">try</span> <span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span> <span class="p">=</span> <span class="n">XMPPController</span><span class="p">(</span><span class="n">hostName</span><span class="p">:</span> <span class="n">server</span><span class="p">,</span>
-                                                     <span class="n">userJIDString</span><span class="p">:</span> <span class="n">userJID</span><span class="p">,</span>
-                                                     <span class="n">password</span><span class="p">:</span> <span class="n">userPassword</span><span class="p">)</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">addDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">delegateQueue</span><span class="p">:</span> <span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">)</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span><span class="p">.</span><span class="n">connect</span><span class="p">()</span>
-        <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
-            <span class="n">sender</span><span class="p">.</span><span class="n">showErrorMessage</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="s">&quot;Something went wrong&quot;</span><span class="p">)</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
+<span class="w">        </span><span class="k">do</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">try</span><span class="w"> </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">XMPPController</span><span class="p">(</span><span class="n">hostName</span><span class="p">:</span><span class="w"> </span><span class="n">server</span><span class="p">,</span>
+<span class="w">                                                     </span><span class="n">userJIDString</span><span class="p">:</span><span class="w"> </span><span class="n">userJID</span><span class="p">,</span>
+<span class="w">                                                     </span><span class="n">password</span><span class="p">:</span><span class="w"> </span><span class="n">userPassword</span><span class="p">)</span>
+<span class="w">            </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span><span class="p">.</span><span class="n">xmppStream</span><span class="p">.</span><span class="n">addDelegate</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span><span class="w"> </span><span class="n">delegateQueue</span><span class="p">:</span><span class="w"> </span><span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">)</span>
+<span class="w">            </span><span class="kc">self</span><span class="p">.</span><span class="n">xmppController</span><span class="p">.</span><span class="n">connect</span><span class="p">()</span>
+<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">sender</span><span class="p">.</span><span class="n">showErrorMessage</span><span class="p">(</span><span class="n">message</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Something went wrong&quot;</span><span class="p">)</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <p>Why are we adding <code>ViewController</code> as a delegate of <code>XMPPStream</code> if our <code>XMPPController</code> already has that delegate implemented?
@@ -4823,15 +4823,15 @@ This is why being able to add multiple delegates is so useful.</p>
 <span class="normal"> 8</span>
 <span class="normal"> 9</span>
 <span class="normal">10</span>
-<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">extension</span> <span class="nc">ViewController</span><span class="p">:</span> <span class="n">XMPPStreamDelegate</span> <span class="p">{</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">extension</span><span class="w"> </span><span class="nc">ViewController</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStreamDelegate</span><span class="w"> </span><span class="p">{</span>
 
-    <span class="kd">func</span> <span class="nf">xmppStreamDidAuthenticate</span><span class="p">(</span><span class="kc">_</span> <span class="n">sender</span><span class="p">:</span> <span class="n">XMPPStream</span><span class="p">!)</span> <span class="p">{</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">logInViewController</span><span class="p">?.</span><span class="n">dismiss</span><span class="p">(</span><span class="n">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="n">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
-    <span class="p">}</span>
+<span class="w">    </span><span class="kd">func</span><span class="w"> </span><span class="nf">xmppStreamDidAuthenticate</span><span class="p">(</span><span class="kc">_</span><span class="w"> </span><span class="n">sender</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStream</span><span class="p">!)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">logInViewController</span><span class="p">?.</span><span class="n">dismiss</span><span class="p">(</span><span class="n">animated</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="n">completion</span><span class="p">:</span><span class="w"> </span><span class="kc">nil</span><span class="p">)</span>
+<span class="w">    </span><span class="p">}</span>
 
-    <span class="kd">func</span> <span class="nf">xmppStream</span><span class="p">(</span><span class="kc">_</span> <span class="n">sender</span><span class="p">:</span> <span class="n">XMPPStream</span><span class="p">!,</span> <span class="n">didNotAuthenticate</span> <span class="n">error</span><span class="p">:</span> <span class="n">DDXMLElement</span><span class="p">!)</span> <span class="p">{</span>
-        <span class="kc">self</span><span class="p">.</span><span class="n">logInViewController</span><span class="p">?.</span><span class="n">showErrorMessage</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="s">&quot;Wrong password or username&quot;</span><span class="p">)</span>
-    <span class="p">}</span>
+<span class="w">    </span><span class="kd">func</span><span class="w"> </span><span class="nf">xmppStream</span><span class="p">(</span><span class="kc">_</span><span class="w"> </span><span class="n">sender</span><span class="p">:</span><span class="w"> </span><span class="n">XMPPStream</span><span class="p">!,</span><span class="w"> </span><span class="n">didNotAuthenticate</span><span class="w"> </span><span class="n">error</span><span class="p">:</span><span class="w"> </span><span class="n">DDXMLElement</span><span class="p">!)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kc">self</span><span class="p">.</span><span class="n">logInViewController</span><span class="p">?.</span><span class="n">showErrorMessage</span><span class="p">(</span><span class="n">message</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Wrong password or username&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="p">}</span>
 
 <span class="p">}</span>
 </code></pre></div></td></tr></table></div>
@@ -4847,7 +4847,7 @@ Logs are going to start showing up!</p>
 <h3 id="configuring-cocoalumberjack">Configuring CocoaLumberjack<a class="headerlink" href="#configuring-cocoalumberjack" title="Permanent link">&para;</a></h3>
 <p>This is a really simple task,
 you just need to add to your <code>func application(application: UIApplication, didFinishLaunchingWithOptions ...</code> method the following line (remember to <code>import CocoaLumberjack</code>):</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">DDLog</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">DDTTYLogger</span><span class="p">.</span><span class="n">sharedInstance</span><span class="p">(),</span> <span class="n">with</span><span class="p">:</span> <span class="n">DDLogLevel</span><span class="p">.</span><span class="n">all</span><span class="p">)</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">DDLog</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">DDTTYLogger</span><span class="p">.</span><span class="n">sharedInstance</span><span class="p">(),</span><span class="w"> </span><span class="n">with</span><span class="p">:</span><span class="w"> </span><span class="n">DDLogLevel</span><span class="p">.</span><span class="n">all</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <p>I’m not going to paste here all the connection process log
 because it makes no sense to try to understand what’s going on at this stage of our learning.
