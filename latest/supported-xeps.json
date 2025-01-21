@@ -560,5 +560,15 @@
     "version" : "0.2.0",
     "status" : "complete",
     "name" : "Message Archive Management Preferences"
+  },
+  {
+    "url" : "https://xmpp.org/extensions/xep-0484.html",
+    "xep" : "0484",
+    "modules" : [
+      "mod_fast_auth_token"
+    ],
+    "version" : "0.2.0",
+    "status" : "complete",
+    "name" : "Fast Authentication Streamlining Tokens"
   }
 ]
