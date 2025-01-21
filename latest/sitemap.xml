@@ -2,602 +2,602 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/Contributions/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/History/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/anonymous/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/dummy/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/external/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/http/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/jwt/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/ldap/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/pki/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/authentication-methods/rdbms/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/Erlang-cookie-security/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/Modules/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/Services/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/TLS-hardening/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/access/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/acl/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/auth/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/configuration-files/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/database-backends-configuration/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/general/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/host_config/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/instrumentation/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/internal-databases/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/listen/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/outgoing-connections/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/release-options/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/s2s/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/configuration/shaper/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/Basic-iq-handler/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/Bootstrap-Scripts/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/Hooks-and-handlers/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/OpenSSL-and-FIPS/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/SCRAM-serialization/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/Stanza-routing/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/Testing-MongooseIM/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/accumulators/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/domain_management/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/hooks_description/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/logging/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/mod_amp_developers_guide/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/mod_muc_light_developers_guide/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/mongoose_wpool/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/release_config/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/developers-guide/xep_tool/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/getting-started/Installation/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/getting-started/Quick-setup/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/graphql-api/Admin-GraphQL/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/graphql-api/User-GraphQL/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/listeners/listen-c2s/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/listeners/listen-components/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/listeners/listen-http/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/listeners/listen-s2s/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/3.1.1_3.2.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/3.3.0_3.4.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/3.5.0_3.6.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/3.6.0_3.7.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/3.7.0_4.0.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/4.0.0_4.0.1/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/4.0.1_4.1.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/4.1.0_4.2.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/4.2.0_5.0.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/5.0.0_5.1.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/5.1.0_6.0.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/6.0.0_6.1.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/6.1.0_6.2.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/6.2.0_6.2.1/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/6.2.1_6.3.0/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/6.3.0_6.3.1/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/migrations/jid-from-mam-muc-script/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_adhoc/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_amp/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_auth_token/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_bind2/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_blocking/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_bosh/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_cache_users/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_caps/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_carboncopy/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_csi/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_disco/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_domain_isolation/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_event_pusher/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_event_pusher_http/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_event_pusher_push/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_event_pusher_rabbit/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_event_pusher_sns/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_extdisco/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_global_distrib/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_http_upload/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_inbox/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_jingle_sip/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_keystore/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_last/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_mam/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_muc/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_muc_light/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_muc_log/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_offline/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_offline_stub/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_ping/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_presence/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_privacy/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_private/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_pubsub/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_push_service_mongoosepush/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_register/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_roster/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_sasl2/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_shared_roster_ldap/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_sic/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_smart_markers/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_stream_management/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_time/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_vcard/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/modules/mod_version/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/open-extensions/inbox/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/open-extensions/mam/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/open-extensions/muc_light/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/open-extensions/smart-markers/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/open-extensions/token-reconnection/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Cluster-configuration-and-node-management/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Cluster-management-considerations/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Cluster-restart/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Humio/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Logging-%26-monitoring/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Logging-fields/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Logging/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/MongooseIM-metrics/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/Rolling-upgrade/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/System-Metrics-Privacy-Policy/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/gdpr-considerations/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/known-issues/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/operation-and-maintenance/tls-distribution/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/rest-api/Administration-backend/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/rest-api/Client-frontend/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/CETS-configure/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/Docker-build/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/How-to-build/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/ICE_tutorial/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/Jingle-SIP-setup/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/client-certificate/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/iOS_tutorial/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/push-notifications/MongoosePush-setup/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/push-notifications/Push-notifications-client-side/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/tutorials/push-notifications/Push-notifications/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/user-guide/Features/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/user-guide/High-level-Architecture/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/user-guide/Supported-XEPs/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
     <url>
          <loc>https://esl.github.io/MongooseDocs/latest/user-guide/Supported-standards/</loc>
-         <lastmod>2025-01-20</lastmod>
+         <lastmod>2025-01-21</lastmod>
     </url>
 </urlset>
